@@ -1,5 +1,4 @@
-const db = require ('./db.js');
+const { execute_sp, obtener_datos } = require ('./db.js');
 
-console.log(db);
-
-db.execute_sp('guardar_historial');
+execute_sp('guardar_historial');
+obtener_datos('SELECT * FROM historial');
