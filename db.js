@@ -8,5 +8,3 @@ function obtener_datos(query){
 
 module.exports.execute_sp = ejecutar_sp;
 module.exports.obtener_datos = obtener_datos;
-
-console.log(module.exports);
