@@ -1,0 +1,25 @@
+{
+    "id": "B001-123",
+    "tipo_comprobante": "BOLETA",
+    "cliente":{
+        "nro_documento": "12345678",
+        "nombre": "Juan Perez"
+    },
+    "enviado_sunat": true,
+    "detalle":[
+        {
+            "producto": "Pepsi",
+            "precio": 10
+        },
+        {
+            "producto": "Sopita",
+            "precio": 30
+        }
+    ],
+    "total": 40
+}
+    
+        
+    
+
+
